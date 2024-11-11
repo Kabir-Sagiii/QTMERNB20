@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function f1() {
+        document.querySelector("h1").innerText = "Hello Javascript";
+        document.querySelector("h1").style.color = "red";
+        var img = document.createElement("img");
+        img.src =
+          "https://th.bing.com/th/id/OIP.4Sf5Qzlwrq-0iNoydcGW0wHaLH?rs=1&pid=ImgDetMain";
+        img.width = "300";
+        img.height = "300";
+        document.querySelector("body").appendChild(img);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Welcome to Javascript</h1>
+    <button onclick="f1()">Create Image</button><br />
+  </body>
+</html>
